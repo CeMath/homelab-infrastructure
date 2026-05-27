@@ -35,6 +35,10 @@ Visual Docker management at `http://localhost:9000`.
 ### Uptime Monitoring — Uptime Kuma
 Tracks uptime of all services at `http://localhost:3001`.
 
+### Metrics Agent — Node Exporter
+Exposes host system metrics (CPU, RAM, disk, network) at `http://localhost:9100`.
+Scraped by Prometheus every 15 seconds.
+
 ## Diagram
 
 ![Architecture](diagrams/homelab-diagram.png)
