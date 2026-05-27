@@ -17,14 +17,30 @@ Designed for media serving, monitoring, and local services management.
 
 ## 📁 Structure
 
+```
 homelab-infrastructure/
 ├── docker-compose.yml
 ├── .env.example
+├── .gitignore
+├── README.md
 ├── traefik/
+│   ├── traefik.yml
+│   └── dynamic/
 ├── monitoring/
+│   ├── prometheus.yml
+│   └── grafana/
+│       └── dashboards/
 ├── services/
+│   ├── jellyfin/
+│   └── postgres/
 ├── scripts/
+│   ├── backup.sh
+│   └── update-services.sh
 └── docs/
+    ├── architecture.md
+    └── diagrams/
+        └── homelab-diagram.png
+```
 
 ## 🚀 Getting Started
 
