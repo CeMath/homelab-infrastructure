@@ -1,0 +1,16 @@
+# Variables de entorno (NUNCA subir al repo)
+.env
+
+# Datos de servicios (volúmenes locales)
+data/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Credenciales
+passwords.txt
