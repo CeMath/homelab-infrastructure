@@ -18,3 +18,8 @@ providers:
 
 log:
   level: INFO
+
+metrics:
+  prometheus:
+    addEntryPointsLabels: true
+    addServicesLabels: true
