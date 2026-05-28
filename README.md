@@ -13,6 +13,7 @@ Designed for media serving, monitoring, and local services management.
 | Jellyfin | Media server |
 | PostgreSQL | Database |
 | Uptime Kuma | Uptime monitoring |
+| Node Exporter | Host system metrics (CPU, RAM, disk, network) for Prometheus |
 
 ## 📁 Structure
 
