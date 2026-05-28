@@ -13,7 +13,6 @@ Designed for media serving, monitoring, and local services management.
 | Jellyfin | Media server |
 | PostgreSQL | Database |
 | Uptime Kuma | Uptime monitoring |
-| Fail2Ban | Security / intrusion prevention |
 
 ## 📁 Structure
 
